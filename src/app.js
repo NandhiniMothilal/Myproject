@@ -9,9 +9,11 @@ import { fileURLToPath } from 'url'
 import indexRouter from './Route/index.js'
 // Helper
 import EnvData from './Helper/EnvData.js'
+// Db
+import './Model/Db.js'
+
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-
 const app = express()
 // view engine setup
 app.set('views', path.join(__dirname, 'View'))

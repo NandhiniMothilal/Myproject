@@ -27,6 +27,8 @@
         "http-errors": "~1.6.3",
         "husky": "^8.0.3",
         "jade": "~1.11.0",
+        "mongodb": "^5.6.0",
+        "mongoose": "^7.3.1",
         "morgan": "~1.9.1",
         "prettier": "^2.8.8",
         "standard": "^17.1.0"
